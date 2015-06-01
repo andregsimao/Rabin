@@ -1,0 +1,14 @@
+Botando, por exemplo, a mensagem "a", com p=179, q=43 e usando 4 dígitos de redundância.
+Passa-se o código 2648.
+Foram achados 2 números com redundância a partir desse:
+6144=1100000000000
+1553=11000010001
+Que ao retirar a redundância:
+110000000= (caracter b cortado)
+1100001="a"
+Gerando erro na codificação, sendo assim, como medida preventiva, mas ainda sim errada, utilizamos o menor dois dois números a fim de acertar na maioria das vezes.
+
+Botando, por exemplo, a mensagem "a", com p=7, q=11 e usando 2 dígitos de redundância.
+"a"=97 --> 1100001-->110000101-->389-->389*389%77=16 (código[0]=16)
+Na hora de achar os w's, acha-se w= 4 73 18 59, nenhum é o 389 procurado.
+Isso acontece devido ao representação do a ser 97 com 97>n. 
