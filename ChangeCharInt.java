@@ -9,6 +9,7 @@ package Rabin;
  *
  * @author Andre Simao
  */
+//teste
 public class ChangeCharInt {
     public long charToInt(char c)
     {
